@@ -17,6 +17,9 @@ kubectl apply -f kube-state-metrics-configs/
 6. deploy kube-state-matrics
 kubectl apply -f kubernetes-alert-manager/
 
+7. deploy kube-state-matrics
+kubectl apply -f kubernetes-grafana/
+
 # kubernetes prometheus Setup
 
 https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/
@@ -27,16 +30,9 @@ https://devopscube.com/setup-kube-state-metrics/
 # kubernetes setup alert manager
 
 https://devopscube.com/alert-manager-kubernetes-guide/
+# kubernetes setup grafana
 
+https://devopscube.com/setup-grafana-kubernetes/
 
-# Other Manifest repos
-
-Kube State metrics manifests: https://github.com/devopscube/kube-state-metrics-configs
-
-Alert manager Manifests: https://github.com/bibinwilson/kubernetes-alert-manager
-
-Grafana manifests: https://github.com/bibinwilson/kubernetes-grafana
-
-Node Exporter manifests: https://github.com/bibinwilson/kubernetes-node-exporter
 
 
